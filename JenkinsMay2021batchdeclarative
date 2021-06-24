@@ -5,7 +5,7 @@ pipeline
 //agent any        // 1.to run a job in node
 agent
 {
-label 'node1'
+label 'nodes'
 }
 triggers
 {
