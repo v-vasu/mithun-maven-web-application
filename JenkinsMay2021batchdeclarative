@@ -2,8 +2,11 @@
 //starting with pipeline
 pipeline 
 {                // starting pipe line curly braces            
-agent any        // 1.to run a job in node
-
+//agent any        // 1.to run a job in node
+agent
+{
+label 'node1'
+}
 triggers
 {
 githubPush()
