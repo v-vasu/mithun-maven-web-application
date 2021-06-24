@@ -76,4 +76,4 @@ Regards,
 Vasu.V''', subject: 'Build is over', to: 'vasu.jenkinsmails@gmail.com'
 }
 }
-}   // this is for pipeline closing curly braces
+}  // this is for pipeline closing curly braces
