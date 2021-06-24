@@ -24,7 +24,7 @@ stage('CheckoutCode')    // 2 .to checkout the code from github (i.e from scm)
 {
 steps
 {
-git branch: 'development', credentialsId: '0885eeb1-a271-41a3-a750-8149ccbcd919', url: 'https://github.com/vasu-mithun-project/maven-web-application.git'
+git branch: 'development', credentialsId: '0885eeb1-a271-41a3-a750-8149ccbcd919', url: 'https://github.com/v-vasu/mithun-maven-web-application.git'
 }
 } 
 stage('Build')      // 3 .to build the package
